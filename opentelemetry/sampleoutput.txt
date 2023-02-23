@@ -1,0 +1,227 @@
+Listening for requests on http://localhost:8080
+{
+  traceId: 'ba866228d834f9c4e538030f218fb639',
+  parentId: '2e03a5f18093a072',
+  name: 'middleware - query',
+  id: '46380305f0b67d2e',
+  kind: 0,
+  timestamp: 1677128180166000,
+  duration: 4658,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'query',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'ba866228d834f9c4e538030f218fb639',
+  parentId: '2e03a5f18093a072',
+  name: 'middleware - expressInit',
+  id: '147b5145196979fb',
+  kind: 0,
+  timestamp: 1677128180183000,
+  duration: 4404,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'expressInit',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'ba866228d834f9c4e538030f218fb639',
+  parentId: '2e03a5f18093a072',
+  name: 'request handler - /',
+  id: '44c1de937992ce48',
+  kind: 0,
+  timestamp: 1677128180190000,
+  duration: 614,
+  attributes: {
+    'http.route': '/',
+    'express.name': '/',
+    'express.type': 'request_handler'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'ba866228d834f9c4e538030f218fb639',
+  parentId: undefined,
+  name: 'GET /',
+  id: '2e03a5f18093a072',
+  kind: 1,
+  timestamp: 1677128180130000,
+  duration: 115322,
+  attributes: {
+    'http.url': 'http://localhost:8080/',
+    'http.host': 'localhost:8080',
+    'net.host.name': 'localhost',
+    'http.method': 'GET',
+    'http.scheme': 'http',
+    'http.target': '/',
+    'http.user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',    
+    'http.flavor': '1.1',
+    'net.transport': 'ip_tcp',
+    'net.host.ip': '::1',
+    'net.host.port': 8080,
+    'net.peer.ip': '::1',
+    'net.peer.port': 65444,
+    'http.status_code': 200,
+    'http.status_text': 'OK',
+    'http.route': ''
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: '62cdf660da45e840a9c3ec229557f1cd',
+  parentId: 'ca02bbee98c81e56',
+  name: 'middleware - query',
+  id: 'f758ff970da308df',
+  kind: 0,
+  timestamp: 1677128181787000,
+  duration: 258,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'query',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: '62cdf660da45e840a9c3ec229557f1cd',
+  parentId: 'ca02bbee98c81e56',
+  name: 'middleware - expressInit',
+  id: '75d8ad1e265224bc',
+  kind: 0,
+  timestamp: 1677128181788000,
+  duration: 509,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'expressInit',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: '62cdf660da45e840a9c3ec229557f1cd',
+  parentId: undefined,
+  name: 'HTTP GET',
+  id: 'ca02bbee98c81e56',
+  kind: 1,
+  timestamp: 1677128181786000,
+  duration: 18979,
+  attributes: {
+    'http.url': 'http://localhost:8080/favicon.ico',
+    'http.host': 'localhost:8080',
+    'net.host.name': 'localhost',
+    'http.method': 'GET',
+    'http.scheme': 'http',
+    'http.target': '/favicon.ico',
+    'http.user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',    
+    'http.flavor': '1.1',
+    'net.transport': 'ip_tcp',
+    'net.host.ip': '::1',
+    'net.host.port': 8080,
+    'net.peer.ip': '::1',
+    'net.peer.port': 65444,
+    'http.status_code': 404,
+    'http.status_text': 'NOT FOUND',
+    'http.route': ''
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'cfde0699b258ce62b0d9819a04886c0c',
+  parentId: 'cff8e5384ca3094a',
+  name: 'middleware - query',
+  id: 'caa540fd788f436d',
+  kind: 0,
+  timestamp: 1677128183091000,
+  duration: 768,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'query',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'cfde0699b258ce62b0d9819a04886c0c',
+  parentId: 'cff8e5384ca3094a',
+  name: 'middleware - expressInit',
+  id: '40442be49d09f74b',
+  kind: 0,
+  timestamp: 1677128183092000,
+  duration: 330,
+  attributes: {
+    'http.route': '/',
+    'express.name': 'expressInit',
+    'express.type': 'middleware'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'cfde0699b258ce62b0d9819a04886c0c',
+  parentId: 'cff8e5384ca3094a',
+  name: 'request handler - /',
+  id: '02a1f5bf5d06bf85',
+  kind: 0,
+  timestamp: 1677128183093000,
+  duration: 479,
+  attributes: {
+    'http.route': '/',
+    'express.name': '/',
+    'express.type': 'request_handler'
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
+{
+  traceId: 'cfde0699b258ce62b0d9819a04886c0c',
+  parentId: undefined,
+  name: 'GET /',
+  id: 'cff8e5384ca3094a',
+  kind: 1,
+  timestamp: 1677128183089000,
+  duration: 7443,
+  attributes: {
+    'http.url': 'http://localhost:8080/',
+    'http.host': 'localhost:8080',
+    'net.host.name': 'localhost',
+    'http.method': 'GET',
+    'http.scheme': 'http',
+    'http.target': '/',
+    'http.user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',    
+    'http.flavor': '1.1',
+    'net.transport': 'ip_tcp',
+    'net.host.ip': '::1',
+    'net.host.port': 8080,
+    'net.peer.ip': '::1',
+    'net.peer.port': 65444,
+    'http.status_code': 304,
+    'http.status_text': 'NOT MODIFIED',
+    'http.route': ''
+  },
+  status: { code: 0 },
+  events: [],
+  links: []
+}
