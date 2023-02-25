@@ -3,6 +3,9 @@
 const opentelemetry = require("@opentelemetry/sdk-node");
 const { getNodeAutoInstrumentations } = require("@opentelemetry/auto-instrumentations-node");
 const { diag, DiagConsoleLogger, DiagLogLevel } = require('@opentelemetry/api');
+const instrument = require('@aspecto/opentelemetry');
+
+instrument({aspectoAuth: '811b0df9-5f85-4db7-bc65-810ea25fb8d4'});
 
 // For troubleshooting, set the log level to DiagLogLevel.DEBUG
 diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.INFO);
